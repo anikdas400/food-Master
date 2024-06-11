@@ -88,12 +88,23 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 30px;
     padding: 20px;
+
+    
+    
 }
+.card-pop img{
+    width: 100%; border-radius: 30px;
+}
+
 .card-text1{
     padding: 10px;
     display: flex;
     justify-content: space-between;
 }
+.card-text1 h2{
+    font-size: 18px; font-weight: 600;
+}
+
 /* .card-text2{
     padding: 10px;
 } */
@@ -112,6 +123,9 @@
     border-right: 1px solid gray;
     padding: 10px 50px;
 }
+
+/* services */
+
 .service-section{
     margin-top: 80px;
 }
@@ -122,11 +136,15 @@
     /* justify-content: center; */
 }
 .card-ser{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
     border-radius: 20px;
     text-align: center;
     padding: 30px 50px;
+    border: 1px solid gray;
     
+}
+:hover.card-ser{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
